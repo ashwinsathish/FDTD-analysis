@@ -20,11 +20,11 @@ Key equations for lossy media:
 
 ### Absorbing Boundary Conditions
 
-Mur's 2nd order ABCs are implemented to simulate infinite space propagation:
+Mur's 1st and 2nd order ABCs are experimented to simulate infinite space propagation across ends where the pulse excitation and takes place. The code implemets the following equations to simulate these conditions:
 
-$E_z \vert_{x=0} = E_z^{\text{past}} \vert_{x=1} + c_1(E_z \vert_{x=1} - E_z^{\text{past}} \vert_{x=0}) + c_2(\ldots) + c_3(\ldots)$
+1st order: $E_z(i, j, k) \vert_{n+1} = E_z(i+1, j, k) \vert_n + \frac{c\Delta t - \Delta x}{c\Delta t + \Delta x} \left( E_z(i+1, j, k) \vert_{n+1} - E_z(i, j, k) \vert_n \right)$
 
-Where $c_1$, $c_2$, and $c_3$ are constants derived from the wave equation.
+2nd order: $E_z(i, j, k) \vert_{n+1} = \frac{c\Delta t - \Delta x}{c\Delta t + \Delta x} \left( E_z(i+1, j, k) \vert_{n+1} - E_z(i, j, k) \vert_n \right) + \frac{2}{(c\Delta t + \Delta x)} \left( E_z(i+2, j, k) \vert_n - 2E_z(i+1, j, k) \vert_n + E_z(i, j, k) \vert_n \right)$
 
 ### Corrosion Modeling
 
