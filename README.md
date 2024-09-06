@@ -22,7 +22,7 @@ Key equations for lossy media:
 
 Mur's 2nd order ABCs are implemented to simulate infinite space propagation:
 
-$E_z |_{x=0} = E_z^{\text{past}} |_{x=1} + c_1(E_z |_{x=1} - E_z^{\text{past}} |_{x=0}) + c_2(...) + c_3(...)$
+$E_z \vert_{x=0} = E_z^{\text{past}} \vert_{x=1} + c_1(E_z \vert_{x=1} - E_z^{\text{past}} \vert_{x=0}) + c_2(\ldots) + c_3(\ldots)$
 
 Where $c_1$, $c_2$, and $c_3$ are constants derived from the wave equation.
 
