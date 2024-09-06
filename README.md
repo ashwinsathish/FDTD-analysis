@@ -35,8 +35,6 @@ Corrosion is modeled using a multi-layer dielectric approach:
 
 The degree of corrosion is estimated by the percentage loss in rebar weight, with rust occupying up to four times the volume lost by the rebar.
 
-![3D Simulation Results](images/3d_simulation_results.png)
-
 ## Key Features
 
 1. 3D FDTD simulation of EM wave propagation
@@ -45,6 +43,8 @@ The degree of corrosion is estimated by the percentage loss in rebar weight, wit
 4. Circular and cuboidal rebar modeling
 5. Variable corrosion levels (0% to 30%)
 6. FFT analysis for frequency-domain characterization
+
+<img src="images/3d_simulation_results.png" width="400" alt="3D Simulation Results">
 
 ## Results
 
@@ -58,16 +58,15 @@ The degree of corrosion is estimated by the percentage loss in rebar weight, wit
 - FFT analysis revealed changes in magnitude and phase spectra for different corrosion levels
 - Observed shifts in center frequency and variations in 3dB bandwidth with increasing corrosion
 
-![30% Corrosion FFT Analysis](images/30_percent_corrosion_fft.png)
+<img src="images/30_percent_corrosion_fft.png" width="400" alt="30% Corrosion FFT Analysis">
 
 ### Corrosion-Delay Relationship
 
 - Established an approximately linear relationship between rust thickness and output wave delay
 - 3D simulations showed more significant delays compared to 2D simulations, better representing real-world interactions
 
-![Delay vs Rust Thickness](images/delay_vs_rust_thickness.png)
-
-![Delay vs Corrosion Percentage](images/delay_vs_corrosion_percentage.png)
+<img src="images/delay_vs_rust_thickness.png" width="400" alt="Delay vs Rust Thickness">
+<img src="images/delay_vs_corrosion_percentage.png" width="400" alt="Delay vs Corrosion Percentage">
 
 ## References
 
