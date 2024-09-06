@@ -65,8 +65,10 @@ The degree of corrosion is estimated by the percentage loss in rebar weight, wit
 - Established an approximately linear relationship between rust thickness and output wave delay
 - 3D simulations showed more significant delays compared to 2D simulations, better representing real-world interactions
 
-<img src="images/delay_vs_rust_thickness.png" width="400" alt="Delay vs Rust Thickness">
-<img src="images/delay_vs_corrosion_percentage.png" width="400" alt="Delay vs Corrosion Percentage">
+<div style="display: flex; justify-content: center;">
+  <img src="images/delay_vs_rust_thickness.png" width="400" alt="Delay vs Rust Thickness" style="margin-right: 10px;">
+  <img src="images/delay_vs_corrosion_percentage.png" width="400" alt="Delay vs Corrosion Percentage">
+</div>
 
 ## References
 
