@@ -72,6 +72,5 @@ The degree of corrosion is estimated by the percentage loss in rebar weight, wit
 
 ## References
 
-1. "Analysis of the Electromagnetic Signature of Reinforced Concrete Structures for Non-destructive Evaluation of Corrosion Damage." IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT, VOL. 61 (NO. 4), April 2012.
-
-2. "Total-Field Absorbing Boundary Conditions for the Time-Domain Electromagnetic Field Equations." IEEE TRANSACTIONS ON ELECTROMAGNETIC COMPATIBILITY, VOL. 40 (NO. 2), May 1998.
+1. Roqueta, Gemma & Jofre, Lluis & Feng, Maria. (2012). Analysis of the Electromagnetic Signature of Reinforced Concrete Structures for Nondestructive Evaluation of Corrosion Damage. IEEE Transactions on Instrumentation and Measurement - IEEE TRANS INSTRUM MEAS. 61. 1090-1098. 10.1109/TIM.2011.2174106.
+2. G. Mur, "Total-field absorbing boundary conditions for the time-domain electromagnetic field equations," in IEEE Transactions on Electromagnetic Compatibility, vol. 40, no. 2, pp. 100-102, May 1998, doi: 10.1109/15.673614.
