@@ -1,4 +1,4 @@
-# FDTD Analysis of EM Waves in Corroded Reinforced Concrete
+# FDTD Analysis in Corroded Reinforced Concrete
 
 ## Overview
 
